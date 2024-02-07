@@ -1,6 +1,6 @@
 {
   "name": "p21gabriel/codequality",
-  "type": "package",
+  "type": "project",
   "minimum-stability": "dev",
   "authors": [
     {
