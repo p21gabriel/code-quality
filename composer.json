@@ -12,7 +12,6 @@
     "phpstan/phpstan" : "1.10.57"
   },
   "scripts": {
-    "test" : "./vendor/bin/pest",
     "codesniffer" : "./vendor/bin/phpcs --colors --standard=PSR12 src",
     "codesniffer-fix" : "./vendor/bin/phpcbf --colors --standard=PSR12 src",
     "phpstan" : "./vendor/bin/phpstan --xdebug analyse -c phpstan.neon",
