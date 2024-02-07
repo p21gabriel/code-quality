@@ -1,0 +1,21 @@
+{
+  "name": "codequality/codequality",
+  "autoload": {
+    "psr-4": {
+      "Codequality\\73\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "asd"
+    }
+  ],
+  "require": {
+
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "2.19.3",
+    "squizlabs/php_codesniffer": "3.7.2",
+    "phpmd/phpmd" : "2.15.0"
+  }
+}
