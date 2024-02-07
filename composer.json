@@ -1,6 +1,7 @@
 {
   "name": "p21gabriel/codequality",
   "type": "package",
+  "minimum-stability": "dev",
   "authors": [
     {
       "name": "asd"
