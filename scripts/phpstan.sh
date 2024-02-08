@@ -1,3 +1,5 @@
 #!/bin/bash
 
-./vendor/bin/phpstan --xdebug analyse -c phpstan.neon
+FILE_PHP_STAN_NEON=$1
+
+./vendor/bin/phpstan --xdebug analyse -c $FILE_PHP_STAN_NEON

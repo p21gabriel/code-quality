@@ -8,7 +8,19 @@
   "require": {
     "friendsofphp/php-cs-fixer": "2.19.3",
     "squizlabs/php_codesniffer": "3.7.2",
-    "phpmd/phpmd" : "2.15.0",
-    "phpstan/phpstan" : "1.10.57"
+    "phpmd/phpmd" : "2.15.0"
+  },
+  "scripts": {
+    "test" : "./vendor/bin/pest",
+    "codesniffer" : "./vendor/bin/phpcs --colors --standard=PSR12 src",
+    "codesniffer-fix" : "./vendor/bin/phpcbf --colors --standard=PSR12 src",
+    "phpstan" : "./vendor/bin/phpstan --xdebug analyse -c phpstan.neon",
+    "check" : [
+      "@codesniffer",
+      "@phpstan"
+    ],
+    "fix" : [
+      "@codesniffer-fix"
+    ]
   }
 }
