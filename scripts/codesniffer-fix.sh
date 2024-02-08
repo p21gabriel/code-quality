@@ -1,3 +1,5 @@
 #!/bin/bash
 
-./vendor/bin/phpcbf --colors --standard=PSR12 src
+DIRECTORIES=$1
+
+./vendor/bin/phpcbf --colors --standard=PSR12 $DIRECTORIES
